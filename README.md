@@ -1,4 +1,3 @@
-
 Amazon Connect Historical Data Generator
 
 This Python script generates a CSV file with randomized historical data for Amazon Connect's forecasting feature. The generated data includes the queue name, queue ID, channel type, timestamp, interval duration, incoming contact volume, average handle time, and the number of contacts handled.
@@ -9,14 +8,12 @@ Installation
 Usage
 Contributing
 License
+
 Installation
 
 Clone the repository to your local machine:
-
 git clone https://github.com/yourusername/amazon-connect-historical-data-generator.git
-
 Navigate to the project directory:
-
 cd amazon-connect-historical-data-generator
 
 Usage
@@ -42,6 +39,7 @@ Maximum average handle time: The maximum average handle time in minutes.
 Low Calls Handled Percentage: The low percentage of calls handled (e.g., enter 60 for 60%).
 High Calls Handled Percentage: The high percentage of calls handled (e.g., enter 90 for 90%).
 Working Days: The days when the contact center is open (1 for Monday, 2 for Tuesday, 3 for Wednesday, 4 for Thursday, 5 for Friday, 6 for Saturday, 7 for Sunday).
+
 Output
 
 The script generates a CSV file named 'output.csv' with the randomized historical data.
