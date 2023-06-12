@@ -25,19 +25,33 @@ python historical_data_generator.py
 Input Parameters
 
 Queue Name: The name of the Amazon Connect queue.
+
 Queue ID: The ID of the Amazon Connect queue.
+
 Channel Type: The type of channel (CHAT or VOICE).
+
 Start date: The start date of the historical data (YYYY-MM-DD).
+
 End date: The end date of the historical data (YYYY-MM-DD).
+
 Interval: The interval for the data (15mins, 30mins, or daily for long-term forecast).
+
 Opening time: The opening time of the contact center (24-hour format).
+
 Closing time: The closing time of the contact center (24-hour format).
+
 Minimum incoming contact volume: The minimum number of incoming contacts.
+
 Maximum incoming contact volume: The maximum number of incoming contacts.
+
 Minimum average handle time: The minimum average handle time in minutes.
+
 Maximum average handle time: The maximum average handle time in minutes.
+
 Low Calls Handled Percentage: The low percentage of calls handled (e.g., enter 60 for 60%).
+
 High Calls Handled Percentage: The high percentage of calls handled (e.g., enter 90 for 90%).
+
 Working Days: The days when the contact center is open (1 for Monday, 2 for Tuesday, 3 for Wednesday, 4 for Thursday, 5 for Friday, 6 for Saturday, 7 for Sunday).
 
 Output
