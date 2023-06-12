@@ -8,8 +8,8 @@ from dateutil.rrule import rrule, DAILY, MO, TU, WE, TH, FR, SA, SU
 demo = input("Would you like to use demo data? (yes/no): ").lower()
 
 if demo == "yes":
-    queue_name = "BasicQueue"
-    queue_id = "9b7b4b99-781b-4ad9-8eb2-4819f40aadff"
+    queue_name = "<Queue_Name>"
+    queue_id = "<Queue_ID>"
     channel_type = "VOICE"
     start_date = "2022-04-01"
     end_date = "2023-05-01"
