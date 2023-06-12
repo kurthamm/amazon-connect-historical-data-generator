@@ -12,7 +12,7 @@ License
 Installation
 
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/amazon-connect-historical-data-generator.git
+git clone https://github.com/kurthamm/amazon-connect-historical-data-generator.git
 Navigate to the project directory:
 cd amazon-connect-historical-data-generator
 
@@ -57,6 +57,6 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Contact
 
-Your Name - your_email@example.com
+Your Name - kurt@hamm.me
 
-Project Link: https://github.com/yourusername/amazon-connect-historical-data-generator
+Project Link: https://github.com/kurthamm/amazon-connect-historical-data-generator
